@@ -17,7 +17,7 @@ Shader "Toon/Basic Outline" {
 
 	struct v2f {
 		float4 pos : SV_POSITION;
-		UNITY_FOG_COORDS(0)
+		//UNITY_FOG_COORDS(0)
 		fixed4 color : COLOR;
 	};
 	
